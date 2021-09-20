@@ -85,8 +85,8 @@ services:
   taiga-front:
     image: tharindumac/taiga-front:tagname
     environment:
-      TAIGA_URL: "http://localhost:9000"
-      TAIGA_WEBSOCKETS_URL: "ws://localhost:9000"
+      TAIGA_URL: "http://3.16.132.167:9000"
+      TAIGA_WEBSOCKETS_URL: "ws://3.16.132.167:9000"
     networks:
       - taiga
     # volumes:
