@@ -83,7 +83,7 @@ services:
       - taiga
 
   taiga-front:
-    image: tharindumac/taiga-front:tagname
+    image: tharindumac/taiga-front:latest
     environment:
       TAIGA_URL: "http://3.16.132.167:9000"
       TAIGA_WEBSOCKETS_URL: "ws://3.16.132.167:9000"
